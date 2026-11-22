@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 100" width="340" height="100">
+  <defs>
+    <style>
+      .navy-fill { fill: #15325B; }
+      .navy-stroke { stroke: #15325B; }
+    </style>
+  </defs>
+
+  <!-- Globe on top left -->
+  <g transform="translate(42, 16)">
+    <!-- Globe circle -->
+    <circle cx="16" cy="16" r="14" fill="none" stroke="#15325B" stroke-width="1.8" />
+    <!-- Latitude line -->
+    <ellipse cx="16" cy="16" rx="14" ry="5.5" fill="none" stroke="#15325B" stroke-width="1.2" />
+    <!-- Longitude central line -->
+    <ellipse cx="16" cy="16" rx="6" ry="14" fill="none" stroke="#15325B" stroke-width="1.2" />
+    <line x1="2" y1="16" x2="30" y2="16" stroke="#15325B" stroke-width="1.2" />
+    <!-- Continents silhouette hint -->
+    <path d="M 10 10 Q 14 13 18 10 Q 22 14 24 20 Q 20 22 14 20 Z" fill="#15325B" opacity="0.35" />
+  </g>
+
+  <!-- Stylized Monogram "B" with dynamic swooshes -->
+  <g transform="translate(14, 22)">
+    <!-- Top sharp wing -->
+    <path d="M 32 8 C 24 16 12 24 0 28 C 14 24 26 16 32 8 Z" fill="#15325B" />
+    <!-- Main stylized B glyph -->
+    <path d="M 28 8 L 20 62 L 34 62 C 48 62 58 55 58 45 C 58 38 52 33 44 31 C 51 29 55 24 55 18 C 55 11 46 8 34 8 Z M 31 16 L 36 16 C 42 16 46 18 46 23 C 46 27 42 30 36 30 L 29 30 Z M 28 37 L 36 37 C 43 37 48 40 48 47 C 48 54 42 56 34 56 L 25 56 Z" fill="#15325B" />
+    <!-- Dynamic horizontal swoosh wing across bottom -->
+    <path d="M 12 50 C 26 44 48 46 68 38 C 52 44 32 46 12 50 Z" fill="#15325B" />
+    <path d="M 2 58 C 16 54 36 54 54 48 C 38 52 20 54 2 58 Z" fill="#15325B" />
+  </g>
+
+  <!-- Outer Border Rectangle for Text Box -->
+  <rect x="95" y="16" width="238" height="72" rx="2" fill="none" stroke="#15325B" stroke-width="2.4" />
+
+  <!-- Arabic Header inside Box -->
+  <text x="214" y="32" font-family="'Traditional Arabic', 'Scheherazade', 'Amiri', 'Arial', sans-serif" font-size="12" font-weight="bold" fill="#15325B" text-anchor="middle" direction="rtl">بسمي انترناشيونال للتجارة العامة ش.ذ.م.م</text>
+
+  <!-- Main BISMI English Wordmark -->
+  <text x="214" y="60" font-family="'Arial Black', 'Trebuchet MS', 'Impact', sans-serif" font-size="28" font-weight="900" letter-spacing="3" fill="#15325B" text-anchor="middle">BISMI</text>
+
+  <!-- INTERNATIONAL & GENERAL TRADING L.L.C -->
+  <text x="214" y="73" font-family="'Arial', 'Helvetica', sans-serif" font-size="10.5" font-weight="bold" letter-spacing="2.2" fill="#15325B" text-anchor="middle">INTERNATIONAL</text>
+  <text x="214" y="83" font-family="'Arial', 'Helvetica', sans-serif" font-size="7.5" font-weight="bold" letter-spacing="1.2" fill="#15325B" text-anchor="middle">GENERAL TRADING L.L.C</text>
+</svg>
